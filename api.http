@@ -1,0 +1,21 @@
+POST http://localhost:8000/all_bands/
+Content-Type: application/json
+
+{
+  "name": "Metallica",
+  "genre": "Metal",
+  "albums": [
+    {
+      "title": "Master of Puppets",
+      "release_date": "1986-01-01"
+    },
+    {
+      "title": "Ride the Lightning",
+      "release_date": "1984-07-27"
+    }
+  ]
+}
+
+
+###
+GET http://localhost:8000/bands/1
